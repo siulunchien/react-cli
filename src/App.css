@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.app {
+  text-align: center;
+}
+.app__header {
+  padding: 20px;
+  height: 150px;
+  background: #222;
+  color: #fff;
+}
+.app__header__logo {
+  height: 80px;
+  animation: logo infinite 20s linear;
+}
+.app__header__title {
+  color: #fff;
+}
+.app__tips {
+  font-size: large;
+  padding: 0 10px;
+}
+
+@keyframes logo {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
